@@ -8,6 +8,7 @@ This is a simple calculator web application created using HTML, CSS, and JavaScr
 **Clear button:** Users can clear the display with a single click using the clear button (C).
 **Error handling:** The calculator handles error cases gracefully and displays "Error" when an invalid expression is entered.
 
+
 **Technologies Used**
 **HTML:** Used for structuring the calculator interface.
 **CSS3:** Styled the calculator for a modern and visually appealing look.
