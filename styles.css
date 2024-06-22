@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-title {   
+    
+    color: white;
+    background-color:none;
+    font-size: 2rem;
+    text-align: center;
+}
+.esha{
+    font-family: Arial, sans-serif;    
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    max-height: 700px;
+}
+#calculator {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    width: 100%;
+    height: 90%;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: right;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    flex: 3;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active {
+    background-color: hsl(0, 0%, 50%);
+}
+
+.operator-btn {
+    background-color: hsl(35, 100%, 55%);
+}
+
+.operator-btn:hover {
+    background-color: hsl(35, 100%, 65%);
+}
+
+.operator-btn:active {
+    background-color: hsl(35, 100%, 75%);
+}
+
+@media (min-width: 600px) {
+    #display {
+        font-size: 2.5rem;
+    }
+
+    button {
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #display {
+        font-size: 3rem;
+    }
+
+    button {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    #display {
+        font-size: 4rem;
+    }
+
+    button {
+        font-size: 2.5rem;
+    }
+}
