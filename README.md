@@ -1,7 +1,7 @@
 # Calculator
 This is a simple calculator web application created using HTML, CSS, and JavaScript. The calculator allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It also includes functionality for clearing the display and calculating the result.
 
-**Features**
+**Features** 
 **Responsive design:** The calculator is designed to be responsive and works well on different screen sizes.
 **Basic arithmetic operations:** Users can perform addition, subtraction, multiplication, and division operations.
 **Decimal input:** The calculator supports decimal input for precise calculations.
