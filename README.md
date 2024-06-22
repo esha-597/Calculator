@@ -3,13 +3,18 @@ This is a simple calculator web application created using HTML, CSS, and JavaScr
 
 **Features** 
 **Responsive design:** The calculator is designed to be responsive and works well on different screen sizes.
-**Basic arithmetic operations:** Users can perform addition, subtraction, multiplication, and division operations.
-**Decimal input:** The calculator supports decimal input for precise calculations.
-**Clear button:** Users can clear the display with a single click using the clear button (C).
-**Error handling:** The calculator handles error cases gracefully and displays "Error" when an invalid expression is entered.
 
+**Basic arithmetic operations:** Users can perform addition, subtraction, multiplication, and division operations.
+
+**Decimal input:** The calculator supports decimal input for precise calculations.
+
+**Clear button:** Users can clear the display with a single click using the clear button (C).
+
+**Error handling:** The calculator handles error cases gracefully and displays "Error" when an invalid expression is entered.
 
 **Technologies Used**
 **HTML:** Used for structuring the calculator interface.
+
 **CSS3:** Styled the calculator for a modern and visually appealing look.
+
 **JavaScript:** Implemented the calculator's functionality including input handling and calculation logic.
